@@ -1,0 +1,428 @@
+
+/* start of first section */
+/* *
+{
+    scroll-behavior: smooth;
+} */
+
+
+ nav a 
+{
+    color: white;
+    
+}
+
+nav img
+{
+    width: 100px;
+    
+}
+
+nav li
+{
+    position: relative;
+}
+
+nav li::before
+{
+    content: "";
+    background-color:rgba(128, 128, 128, 0.144);
+    width: 2000%;
+    height: 0.5px;
+    position: absolute;
+    bottom:-50%;
+    left: -1000%;
+}
+
+
+
+.layer
+{
+    background-color:rgba(0, 0, 0, 0.418);
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.caption
+{
+    height: 100%;
+    background-image: url(../../imgs/bg-image-28.jpg);
+    background-size: 100% 100%;
+}
+
+.first .caption h1 , .caption-2 h1
+{
+    font-size: 100px;
+}
+
+.first .caption p , .caption-2 p
+{
+    font-size: 20px;
+}
+
+.caption-2
+{
+    height: 100%;
+    background-image: url(../../imgs/bg-image-29.jpg);
+    background-size: 100% 100%;
+}
+
+.first .carousel-control-prev
+{
+    
+    position: absolute;
+    top:255px;
+    left: 0;
+    border: solid 2px white;
+    width: 60px;
+    height: 50px;
+}
+
+.first .carousel-control-prev:hover,.first .carousel-control-next:hover
+
+{
+    background-color:blue;
+    color: black;
+}
+
+
+.first .carousel-control-next
+{
+
+    position: absolute;
+    top: 305px;
+    left: 0;
+    border: solid 2px white;
+    width: 60px;
+    height: 50px;
+    
+}
+
+
+
+
+.first .caption .mine,.first .caption-2 .mine 
+{
+    color: white;
+    background-color:transparent;
+}
+
+.first .caption .mine:hover,.first .caption-2 .mine:hover
+{
+    background-color: white;
+    color: black;
+} 
+
+
+
+
+
+
+/* end of first section */
+
+
+
+
+/* start of about section */
+
+.second h1
+{
+position: relative;
+}
+
+.second h1::before
+{
+    content: "A";
+    color: rgba(128, 128, 128, 0.596);
+    font-size: 120px;
+    position: absolute;
+    top: -100%;
+    left: 47%;
+
+
+}
+
+
+
+
+.about p::after
+{
+    font-size: 20px;
+    content: "";
+    animation-name:typing;
+    animation-duration: all 3s;
+    
+}
+
+
+
+
+@keyframes typing{
+
+0% {content:"websites"}
+50% {content:"Software"}
+100% {content:"Apps"}
+}
+
+/* end of about section */
+
+
+
+/* start of third section */
+
+.team
+{
+    background-color: royalblue;
+    position: relative;
+    
+}
+
+.team img
+{
+    width: 100%;
+    
+    
+}
+
+.team-layer
+{
+    width: 100%;
+    position: absolute;  
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    background-color: rgba(29, 237, 252, 0.61); 
+    transition: all 0.1s;
+    visibility: hidden;
+}
+
+.team:hover .team-layer
+{
+    visibility: visible;
+}
+
+
+.third h1
+{
+    position: relative;
+}
+
+
+.third h1::after
+{
+content: "C";
+color:rgba(128, 128, 128, 0.247);
+position: absolute;
+top: -100%;
+right: 50%;
+font-size: 100px;
+
+}
+
+/* end of third section  */
+
+
+/* start of fourth section */
+
+.fourth-caption h1
+{
+    position: relative;
+}
+
+.fourth-caption h1::before
+{
+
+    content: "W";
+    color: rgba(128, 128, 128, 0.596);
+    font-size: 80px;
+    position: absolute;
+    top: -80%;
+    left: 40px;
+} 
+
+
+.fourth i
+{
+    font-size: 50px;
+    color: rgb(19, 31, 19);
+    margin-bottom: 20px;
+}
+
+.fourth p
+{
+    font-weight: bold;
+    color: white;
+}
+
+
+.list li
+{
+
+    list-style-type: none;
+}
+
+
+.list i
+{
+color: white;
+font-size: 20px;
+}
+
+/* end of fourth section */
+
+
+/* start of fifth section */
+
+.fifth
+{
+    background-color: rgb(221, 221, 221);
+}
+
+.fifth .container h1
+{
+    position: relative;
+    font-size: 50px;
+}
+
+.fifth .container h1::before
+{
+content: "$";
+font-size: 20px;
+position: absolute;
+top: -15px;
+left: -10px;
+}
+
+
+.fifth .container h1::after
+{
+    content: "";
+    background-color: gray;
+    width: 200px;
+    height: 1px;
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+}
+
+
+.fifth span
+{
+    position: relative;
+}
+
+.fifth span::after
+{
+    content: "Best Value";
+    background-color:#00c3da;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border: solid 1px #00c3da;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 300%;
+
+}
+
+/* end of fifth section */
+
+
+
+
+/* start of sixth section */
+
+.sixth
+{
+    background-color: rgb(221, 221, 221);
+}
+
+
+.sixth img
+{
+    width: 100px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.marissa
+{
+    transform: translateY(-20%);
+}
+
+.sixth h4
+{
+transform: translateY(-50%);
+}
+
+
+
+
+/* end of sixth section */
+
+
+/* start of seventh section */
+
+.seventh h1
+{
+    position: relative;
+}
+
+.seventh h1::before
+{
+    content: "G";
+    color: rgba(128, 128, 128, 0.151);
+    font-size:80px;
+    position: absolute;
+    top: -40px;
+    left: -10px;
+}
+
+
+/* end of seventh section  */
+
+
+#topBtn
+{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+
+.loading
+{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+body
+{
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
